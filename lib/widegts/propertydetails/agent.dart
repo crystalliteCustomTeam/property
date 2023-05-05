@@ -6,7 +6,7 @@ agent(context,String agentName,String designation, String agentNumber,String age
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Container(
-          width: MediaQuery.of(context).size.width * 0.52,
+          width: MediaQuery.of(context).size.width * 0.55,
           child: Row(
 
             children: [

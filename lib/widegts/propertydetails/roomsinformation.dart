@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-rooms(String bedRooms,String baths,String garage){
+rooms(String bedRooms,String baths,String garage,Color customcolors){
+
+
   return Container(
     width: 290,
     child: Row(
@@ -13,8 +15,9 @@ rooms(String bedRooms,String baths,String garage){
             const SizedBox(
               width: 10,
             ),
-            Text('${bedRooms} Beds',style: const TextStyle(
-                fontSize: 15
+            Text('${bedRooms} Beds',style:  TextStyle(
+                fontSize: 15,
+                color: customcolors
             )),
           ],
         ),
@@ -25,8 +28,9 @@ rooms(String bedRooms,String baths,String garage){
             const SizedBox(
               width: 10,
             ),
-            Text('${baths} Baths',style: const TextStyle(
-                fontSize: 15
+            Text('${baths} Baths',style:  TextStyle(
+                fontSize: 15,
+                color: customcolors
             )),
           ],
         ),
@@ -37,8 +41,9 @@ rooms(String bedRooms,String baths,String garage){
             const SizedBox(
               width: 10,
             ),
-            Text('${garage} Garage',style:const TextStyle(
-                fontSize: 15
+            Text('${garage} Garage',style: TextStyle(
+                fontSize: 15,
+                color: customcolors
             )),
           ],
         )

@@ -8,8 +8,8 @@ propertynamebookmark(context,String Name,String Address){
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(Name,style: TextStyle(fontSize: 25,fontWeight: FontWeight.w800),),
-            Text(Address,style: TextStyle(fontSize: 18,fontWeight: FontWeight.w500),),
+            Text(Name,style: TextStyle(fontSize: 24,fontWeight: FontWeight.w800),),
+            Text(Address,style: TextStyle(fontSize: 15 ,fontWeight: FontWeight.w500),),
           ],
         ),
       ),

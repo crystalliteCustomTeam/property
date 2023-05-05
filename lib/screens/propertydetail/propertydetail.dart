@@ -1,4 +1,5 @@
 import 'package:estate/widegts/propertydetails/agent.dart';
+import 'package:estate/widegts/propertydetails/pricetobuy.dart';
 import 'package:estate/widegts/propertydetails/propertyimagesection.dart';
 import 'package:estate/widegts/propertydetails/propertynamebookmark.dart';
 import 'package:estate/widegts/propertydetails/roomsinformation.dart';
@@ -33,7 +34,7 @@ class PropertyDetails extends StatelessWidget {
           const SizedBox(
             height: 5,
           ),
-          rooms('15', '2', '1'),
+          rooms('15', '2', '1',Color(0xff000000)),
           const SizedBox(
             height: 20,
           ),
@@ -45,7 +46,11 @@ class PropertyDetails extends StatelessWidget {
           const SizedBox(
             height: 20,
           ),
-
+          SetGallery(),
+          const SizedBox(
+            height: 10,
+          ),
+          pricetobuy(context,199600,"RS.")
         ],
       ),
     );

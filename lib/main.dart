@@ -1,3 +1,4 @@
+import 'package:estate/screens/PropertyArchive/propertyarchive.dart';
 import 'package:estate/screens/propertydetail/propertydetail.dart';
 import 'package:flutter/material.dart';
 
@@ -10,13 +11,16 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    const padding = 24.0;
+    const padding = 25.0;
     return MaterialApp(
+      theme: ThemeData(
+        fontFamily: 'Mulish'
+      ),
       title: 'Flutter Demo',
       home: Scaffold(
         body: Container(
           padding: EdgeInsets.all(padding),
-          child: PropertyDetails(),
+          child: PropertyArchive(),
         ),
       )
     );
