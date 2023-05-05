@@ -1,5 +1,6 @@
-import 'package:estate/screens/PropertyArchive/propertyarchive.dart';
-import 'package:estate/screens/propertydetail/propertydetail.dart';
+import 'package:estate/screens/loginemail/loginemail.dart';
+import 'package:estate/screens/loginsections/loginsection.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Container(
           padding: EdgeInsets.all(padding),
-          child: PropertyArchive(),
+          child: LoginSections(),
         ),
       )
     );
